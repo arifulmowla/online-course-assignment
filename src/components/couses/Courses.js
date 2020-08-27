@@ -10,7 +10,7 @@ const Courses = (props) => {
   return (
     <div className="couses">
       <Container>
-        <h1 className="text-center">Our Couses</h1>
+        <h1 className="text-center">Our Courses</h1>
         <br />
 
         <div className="row">
