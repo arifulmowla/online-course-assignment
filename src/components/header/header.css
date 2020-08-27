@@ -1,0 +1,64 @@
+.logo {
+  height: 30px;
+}
+.cart-icon {
+  margin-right: 20px;
+}
+.btn {
+  padding: 5px 30px;
+  border-radius: 6px;
+  border: 1px solid #0f7c90;
+  font-weight: bold;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.btn-color {
+  background-color: #0f7c90;
+}
+
+.nav-btn {
+  margin-left: 15px;
+}
+
+/** Heror */
+
+.hero {
+  background-image: url(https://img-a.udemycdn.com/notices/home_banner/image_udlite/297203a1-8980-4b56-9dee-f16c93fc0cf8.jpg);
+  min-height: 450px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 30px;
+}
+
+.left {
+  width: 50%;
+}
+
+.button-tooltip {
+  width: 300px;
+}
+.tool-custom {
+  padding: 30px 15px;
+}
+
+.mytooltip > .tooltip-inner {
+  max-width: 100%;
+  min-width: 300px;
+  min-height: 250px;
+  max-height: 100%;
+  background-color: white;
+  color: black;
+}
+
+.mytooltip > .tooltip-arrow {
+}

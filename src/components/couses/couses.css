@@ -1,0 +1,18 @@
+.course {
+  padding: 15px;
+}
+
+.card-info {
+  padding: 15px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn-couse {
+  background-color: #ec5252;
+}
+.btn-couse:hover {
+  background-color: #e13030;
+}
