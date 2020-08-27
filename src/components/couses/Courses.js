@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Card, Button, Row, Col } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import "./couses.css";
 import fakeData from "../../fakeData/fakeData";
+import { useState } from "react";
 
 const Courses = (props) => {
-  const data = fakeData;
+  const [data, setData] = useState(fakeData);
   const addCart = props.addCart;
   return (
     <div className="couses">
@@ -14,7 +15,7 @@ const Courses = (props) => {
 
         <div className="row">
           {data.map((item) => (
-            <div className="col-md-4 course">
+            <div className="col-md-4 course" key={item.id}>
               <Card>
                 <Card.Img className="course-img" src={item.image}></Card.Img>
                 <div className="card-info">

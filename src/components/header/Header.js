@@ -15,7 +15,7 @@ const Header = (props) => {
   const carts = props.addCart;
   const totalPrice = carts.reduce((totalPrice, ca) => ca.price + totalPrice, 0);
   let notice;
-  if (carts.length == 0) {
+  if (carts.length === 0) {
     notice = <p>Nothing on cart</p>;
   } else {
     notice = <p>{carts.length} course in cart</p>;
@@ -66,7 +66,7 @@ const Header = (props) => {
               >
                 <Nav.Link href="#link" className="cart-icon">
                   <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-                  <span class="badge badge-light">{carts.length}</span>
+                  <span className="badge badge-light">{carts.length}</span>
                 </Nav.Link>
               </OverlayTrigger>
               <Button variant="primary" className="btn-white nav-btn">
